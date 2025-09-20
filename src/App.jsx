@@ -1,8 +1,8 @@
-import './App.css'
-import React from 'react';
-function App() {
+  import React from 'react';
+  import Body from './components/Body';
 
-  return <div className='text-2xl font-bold text-green-800'>Hello Ravi How are you </div>
-}
+  function App() {
+    return <Body/>
+  }
 
-export default App
+  export default App
